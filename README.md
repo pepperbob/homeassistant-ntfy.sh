@@ -72,10 +72,10 @@ action:
     data:
       message: "This is a test message."
       title: "Gotify Test"
-      topic: "override_default_topic"
       data:
         tags: [tags]
         priority: 3
+        topic: "override_default_topic"
         attach: https://placekitten.com/400/300
         filename: filename.jpg
         click: https://www.home-assistant.io/
